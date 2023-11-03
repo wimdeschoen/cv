@@ -1,0 +1,46 @@
+
+main {
+    background-color: #F8EDE3;
+    display: flex;
+    gap: 20rem;
+}
+
+body {
+        
+}
+
+hr {
+    
+    border-style:  none;
+
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 3px;
+    width: 5%;
+
+}
+
+.container_m {
+    
+    height: 20px;
+    width: 20px;
+}
+section{
+    background-color: #DFD3C3;
+}
+
+.container_m{
+    display: flex;
+    
+    
+}
+.container_w{
+    background-color: #D0B8A8;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+footer{
+    background-color: #85586F;
+}
