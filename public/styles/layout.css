@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap");
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
+ */
 i {
   margin-right: 10px;
 }
@@ -45,7 +45,7 @@ i {
   position: relative;
 }
 #navbarSupportedContent > ul > li.active > a {
-  color: #3586ff;
+  color: #85586F;
   background-color: transparent;
   transition: all 0.7s;
 }
@@ -167,7 +167,7 @@ i {
 footer {
   position: relative;
   width: 100%;
-  background: #3586ff;
+  background: #85586F;
   min-height: 100px;
   padding: 20px 50px;
   display: flex;
@@ -199,12 +199,12 @@ footer .social_icon li a {
 }
 footer .social_icon li a:hover {
   transform: translateY(-15px);
-  color: blue;
+  color: #D0B8A8;
 }
 
 footer .menu li a {
   font-size: 1.2em;
-  color: #ccc;
+  color: #D0B8A8;
   margin: 0 10px;
   display: inline-block;
   transition: 0.5s;
@@ -213,7 +213,7 @@ footer .menu li a {
 }
 footer .menu li a:hover {
   opacity: 1;
-  color: #fff;
+  color: #D0B8A8;
 }
 p {
   color: whtie;
