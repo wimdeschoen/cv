@@ -18,6 +18,7 @@ i {
 .navbar-mainbg {
   background-color: #85586F;
   padding: 0px;
+  width: 100%;
 }
 #navbarSupportedContent {
   overflow: hidden;
@@ -109,8 +110,7 @@ i {
   bottom: 0;
   left: -25px;
 }
-
-@media (min-width: 992px) {
+@media (min-width: 100%) {
   .navbar-expand-custom {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
@@ -131,6 +131,7 @@ i {
     flex-basis: auto;
   }
 }
+
 
 @media (max-width: 991px) {
   #navbarSupportedContent ul li a {

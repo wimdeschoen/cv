@@ -7,9 +7,12 @@ main {
 }
 
 body {
-    display: flex;
+    
+    background-color: #F8EDE3;
+    display: inline-flex;
     flex-direction: column;
-    gap: 2rem;
+    align-items: center;
+    gap: 5rem;
 }
 .img_profile {
     height: 50px;
