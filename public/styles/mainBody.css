@@ -96,3 +96,12 @@ section{
 footer{
     background-color: #85586F;
 }
+
+footerend{
+    /*
+    a div height of 100px
+    */
+    height: 100px;
+
+
+}
