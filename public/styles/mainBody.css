@@ -50,6 +50,30 @@ section{
     justify-content: center;
     align-items: center;
 }
+
+/* CONTACT PAGE FIXES */
+
+/* Ensure h1 doesn't have excessive margin */
+.contact-container h1 {
+    margin-top: 0; /* Removes extra space above */
+    margin-bottom: 10px; /* Slightly reduces gap between heading and paragraph */
+}
+
+/* Adjust the paragraph */
+.contact-container p {
+    margin-top: 5px;
+    margin-bottom: 10px; /* Reduces space before the form */
+}
+
+/* Reduce extra space in the form */
+.contact-container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Adjust spacing between form elements */
+}
+
+/* Fix any padding/margin issues in the main contact section */
 .contact-container {
     display: flex;
     flex-direction: column;
@@ -57,28 +81,16 @@ section{
     text-align: center;
     max-width: 600px;
     margin: auto;
+    padding-top: 5px; /* Avoids excessive spacing at the top */
 }
-
-.contact-container form {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.contact-email {
-    margin-top: 20px;
-}
-.contact-container h1 {
-    margin-bottom: 10px; /* Reduce space below heading */
-}
-
-.contact-container p {
-    margin-top: 5px; /* Reduce space above paragraph */
-}
-
-.contact-container {
-    padding-top: 10px; /* Adjust if needed */
+.success-message {
+    background-color: #D4EDDA;
+    color: #155724;
+    padding: 10px;
+    margin: 15px auto;
+    text-align: center;
+    width: 80%;
+    border-radius: 5px;
 }
 
 footer{

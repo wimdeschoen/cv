@@ -1,13 +1,18 @@
 <%- include("partials/header.ejs") %>
 
 <body>
+    <% if (message === "success") { %>
+        <div class="success-message">
+            <p>✅ Thank you for your message! You will be contacted soon.</p>
+        </div>
+    <% } %>
     <main>
         <img class = "img_profile" src="images/WhatsApp Image 2023-03-26 at 14.50.09 (4)-modified.png" alt="Wim profile Foto" >
         <h1>Wim Deschoenmaeker</h1>
     </main>        
     <section>        
         </div>
-        <h2>Who am I</h2>
+        <h2 class="container_h" >Who am I</h2>
         <div class="contanier_w"> 
             <p>I am an accomplished Electrical Mechanical Engineer with a strong passion for Automation. Based in Waregem, Belgium, I currently work at Delta Engineering, a leading company in the field of automation and engineering solutions. I have been actively contributing to the world of industrial automation since 2005.</p>
             <p>My expertise lies in designing and implementing innovative automation systems that enhance efficiency, productivity, and safety in various industrial settings. Throughout my career, I have successfully executed numerous automation projects, ranging from small-scale enhancements to large-scale industrial automation solutions.</p>
