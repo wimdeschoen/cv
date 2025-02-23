@@ -32,6 +32,17 @@ app.get("/motorcycles", (req, res) => {
         textNavbar : "Motorcycles"
       });
 });
+app.get("/contact", (req, res) => {
+  res.render("contact.ejs", {
+      textNavbar: "Contact"
+  });
+});
+
+app.post("/contact", (req, res) => {
+  const { name, email, message } = req.body;
+  console.log(`New contact form submission from ${name} (${email}): ${message}`);
+  res.send("Thank you for your message!");
+});
 app.listen(port, () => {
     console.log(`Listening on port ${port}`);
   });
