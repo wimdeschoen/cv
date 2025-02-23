@@ -10,7 +10,14 @@
 i {
   margin-right: 10px;
 }
+header {
+  width: 100%;
+  max-width: 100vw;
+}
 /*----------bootstrap-navbar-css------------*/
+.navbar{
+  width: 100%;
+}
 .navbar-logo {
   padding: 15px;
   color: #fff;
